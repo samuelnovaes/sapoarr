@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<%- include('head', {title: 'Some sapoarr'}) -%>
+<body>
+	<h1>Um formulariozinho passando valor por POST</h1>
+	<form method="post" action="/resultado">
+		<p>
+			<label for="n1">Primeiro número</label>
+			<br>
+			<input type="number" name="n1" id="n1">
+		</p>
+		<p>
+			<label for="n2">Segundo número</label>
+			<br>
+			<input type="number" name="n2" id="n2">
+		</p>
+		<p>
+			<label for="texto">Um texto qualquer</label>
+			<br>
+			<textarea name="texto" id="texto"></textarea>
+		</p>
+		<p>
+			<button type="submit">Somar</button>
+		</p>
+	</form>
+</body>
+</html>

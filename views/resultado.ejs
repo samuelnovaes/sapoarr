@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<%- include('head', {title: 'Resultado'}) -%>
+<body>
+	<h1>O resultado de sapoarr é <%= valor %></h1>
+
+	<%- include('lipsum') -%>
+	<br>
+	<%- include('includevalor', {texto: texto}) -%>
+
+	<h3>Pronto. Agora vc pode largar essa merda de PHP e parar de misturar view com controller</h3>
+	<h3>Olha o código fonte</h3>
+
+	<img src="/img/galocego.jpg">
+	<br>
+	<a href="/">
+		<button>Fazer outra conta</button>
+	</a>
+</body>
+</html>
